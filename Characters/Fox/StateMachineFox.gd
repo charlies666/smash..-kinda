@@ -158,6 +158,14 @@ func AIRMOVEMENT():
 			parent.velocity.x += -parent.AIR_ACCEL/5
 	
 
+func Landing():
+	if state_includes([states.AIR]):
+		if (parent.GroundL.is_collidng()) and parent.velocity.x > 0:
+			var collider = parent.GroundL.get_collider()
+			parent.frames = 0
+			if parent.velocity.y > 0:
+				parent.velocity.y = 0 
+
 func Falling():
 	if state_includes([states.RUN,states.WALK,states.STAND,states.CROUCH,states.DASH,states.LANDING,states.TURN,states.JUMP_SQUAT,states.SHORT_HOP,states.FULL_HOP,states.MOONWALK,states.AIR]):
 		if not parent.GroundL.is_colliding() and not parent.GroundR.is_colliding():
