@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://1vxd6dw0mqcm" path="res://Characters/Fox/Fox.tscn" id="2_pe7e3"]
 
 [sub_resource type="RectangleShape2D" id="1"]
-size = Vector2(962, 38)
+size = Vector2(963, 38)
 
 [node name="Test Stage" type="Node2D"]
 position = Vector2(-953, -1098)
@@ -19,7 +19,7 @@ position = Vector2(952, 947)
 collision_layer = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Floor"]
-position = Vector2(1, 1)
+position = Vector2(-0.5, 1)
 shape = SubResource("1")
 
 [node name="Label" type="Label" parent="Floor"]
@@ -35,7 +35,7 @@ position = Vector2(952, 1017)
 collision_layer = 2
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Wall"]
-polygon = PackedVector2Array(-481, -50, -427, 5, -339, 47, 340, 46, 424, 7, 483, -50)
+polygon = PackedVector2Array(-483, -50, -427, 5, -339, 47, 340, 46, 424, 7, 482, -50)
 
 [node name="Label" type="Label" parent="Wall"]
 offset_left = -16.0
@@ -60,4 +60,4 @@ editor_draw_limits = true
 editor_draw_drag_margin = true
 
 [node name="FOX" parent="." instance=ExtResource("2_pe7e3")]
-position = Vector2(1033, 896)
+position = Vector2(1033, 881)

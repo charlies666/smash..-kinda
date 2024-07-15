@@ -1,8 +1,17 @@
 extends CharacterBody2D
 
+#Global Variables
+var frames = 0
+
+#Ground Variables
 var dash_duration = 10
 
+#Air Variables
+var landing_frames = 0
+var lag_frames = 0
+var jump_squat = 3
 
+#Fox's Main Attributes
 var RUNSPEED = 340*2
 var DASHSPEED = 390*2
 var WALKSPEED = 200*2
@@ -20,7 +29,8 @@ var ROLL_DISTANCE = 350*2
 var AIR_DODGE_SPEED = 500*2
 var UP_B_LAUNCHSPEED = 700*2
 
-var frames = 0
+@onready var states = $State
+
 func updateframes(_delta):
 	frames+=1
 
