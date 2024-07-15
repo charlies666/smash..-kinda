@@ -10,6 +10,13 @@ var dash_duration = 10
 var landing_frames = 0
 var lag_frames = 0
 var jump_squat = 3
+var fastfall = false
+
+#Onready Variables
+@onready var GroundL = get_node('Raycasts/GroundL')
+@onready var GroundR = get_node('Raycasts/GroundR')
+@onready var states = $State
+@onready var anim = $Sprite/AnimationPlayer
 
 #Fox's Main Attributes
 var RUNSPEED = 340*2
@@ -29,21 +36,23 @@ var ROLL_DISTANCE = 350*2
 var AIR_DODGE_SPEED = 500*2
 var UP_B_LAUNCHSPEED = 700*2
 
-@onready var states = $State
 
 func updateframes(_delta):
 	frames+=1
 
 func turn(direction):
-	var _dir = 0
+	var dir = 0
 	if direction:
-		_dir = -1
+		dir = -1
 	else:
-		_dir = 1
+		dir = 1
 	$Sprite.set_flip_h(direction)
 
 func frame():
 	frames = 0
+
+func play_animation(animation_name):
+	anim.play(animation_name)
 
 func _ready():
 	pass
