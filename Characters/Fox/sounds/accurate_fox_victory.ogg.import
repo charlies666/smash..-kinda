@@ -2,7 +2,7 @@
 
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
-uid="uid://mnlubcddo4x3"
+uid="uid://c1764s34g6kp8"
 path="res://.godot/imported/accurate_fox_victory.ogg-413c2f0826eadb11366714ad871b45a2.oggvorbisstr"
 
 [deps]
@@ -12,7 +12,7 @@ dest_files=["res://.godot/imported/accurate_fox_victory.ogg-413c2f0826eadb113667
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0
 bpm=0
 beat_count=0

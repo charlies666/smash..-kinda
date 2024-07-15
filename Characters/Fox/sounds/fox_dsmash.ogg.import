@@ -2,7 +2,7 @@
 
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
-uid="uid://bsa75bkycxf7b"
+uid="uid://d1186ocj66hgf"
 path="res://.godot/imported/fox_dsmash.ogg-a924e94aa0cda220f669c801e36a3b88.oggvorbisstr"
 
 [deps]
@@ -12,7 +12,7 @@ dest_files=["res://.godot/imported/fox_dsmash.ogg-a924e94aa0cda220f669c801e36a3b
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0
 bpm=0
 beat_count=0

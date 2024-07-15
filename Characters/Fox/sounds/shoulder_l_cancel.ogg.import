@@ -2,7 +2,7 @@
 
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
-uid="uid://dam3legjwh180"
+uid="uid://c2hsl4dpkqv0b"
 path="res://.godot/imported/shoulder_l_cancel.ogg-12f57b663deb99001de9aba73a77cfb2.oggvorbisstr"
 
 [deps]
@@ -12,7 +12,7 @@ dest_files=["res://.godot/imported/shoulder_l_cancel.ogg-12f57b663deb99001de9aba
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0
 bpm=0
 beat_count=0

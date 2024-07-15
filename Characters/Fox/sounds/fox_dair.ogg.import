@@ -2,7 +2,7 @@
 
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
-uid="uid://byp1kuin8y3em"
+uid="uid://dh75d5i0rix6r"
 path="res://.godot/imported/fox_dair.ogg-4a7b098b3a52aee7ab14f99638ee48b3.oggvorbisstr"
 
 [deps]
@@ -12,7 +12,7 @@ dest_files=["res://.godot/imported/fox_dair.ogg-4a7b098b3a52aee7ab14f99638ee48b3
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0
 bpm=0
 beat_count=0

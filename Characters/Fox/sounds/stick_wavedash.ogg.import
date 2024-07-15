@@ -2,7 +2,7 @@
 
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
-uid="uid://ctta1182j26rh"
+uid="uid://cqmqlpi3fmx5u"
 path="res://.godot/imported/stick_wavedash.ogg-0fe454f146f1ad92d6ac2332a8a36a81.oggvorbisstr"
 
 [deps]
@@ -12,7 +12,7 @@ dest_files=["res://.godot/imported/stick_wavedash.ogg-0fe454f146f1ad92d6ac2332a8
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0
 bpm=0
 beat_count=0

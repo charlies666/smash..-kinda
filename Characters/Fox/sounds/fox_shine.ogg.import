@@ -2,7 +2,7 @@
 
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
-uid="uid://c7y8481tkd518"
+uid="uid://dg8lh67yav1g0"
 path="res://.godot/imported/fox_shine.ogg-d3e66c04bc450d0311c8a57a40152f74.oggvorbisstr"
 
 [deps]
@@ -12,7 +12,7 @@ dest_files=["res://.godot/imported/fox_shine.ogg-d3e66c04bc450d0311c8a57a40152f7
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0
 bpm=0
 beat_count=0

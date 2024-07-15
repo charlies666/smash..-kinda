@@ -2,7 +2,7 @@
 
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
-uid="uid://ctptsnlr11soa"
+uid="uid://d3jm3p210122h"
 path="res://.godot/imported/fox_trummel_codec.ogg-2330c124c11b1f577c3188945cbb5007.oggvorbisstr"
 
 [deps]
@@ -12,7 +12,7 @@ dest_files=["res://.godot/imported/fox_trummel_codec.ogg-2330c124c11b1f577c31889
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0
 bpm=0
 beat_count=0

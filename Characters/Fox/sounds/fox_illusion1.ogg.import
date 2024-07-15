@@ -2,7 +2,7 @@
 
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
-uid="uid://0yxxaq81enxw"
+uid="uid://cpq07jwu7bsuq"
 path="res://.godot/imported/fox_illusion1.ogg-12cc8ec2336d68ad2e6481adf7c551ed.oggvorbisstr"
 
 [deps]
@@ -12,7 +12,7 @@ dest_files=["res://.godot/imported/fox_illusion1.ogg-12cc8ec2336d68ad2e6481adf7c
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0
 bpm=0
 beat_count=0

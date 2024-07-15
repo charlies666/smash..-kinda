@@ -2,7 +2,7 @@
 
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
-uid="uid://cn5ae48cfgoj3"
+uid="uid://ca7554exfifnw"
 path="res://.godot/imported/fox_ledge_sfx.ogg-eacc0b2e00f3fc2f9cd1a0212cdc2074.oggvorbisstr"
 
 [deps]
@@ -12,7 +12,7 @@ dest_files=["res://.godot/imported/fox_ledge_sfx.ogg-eacc0b2e00f3fc2f9cd1a0212cd
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0
 bpm=0
 beat_count=0

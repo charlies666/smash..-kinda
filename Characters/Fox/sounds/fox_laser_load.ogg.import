@@ -2,7 +2,7 @@
 
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
-uid="uid://fmh3q3saliks"
+uid="uid://ddw6p0k7uttpa"
 path="res://.godot/imported/fox_laser_load.ogg-6cd368fb6c9402013cd0d2ddccf51f15.oggvorbisstr"
 
 [deps]
@@ -12,7 +12,7 @@ dest_files=["res://.godot/imported/fox_laser_load.ogg-6cd368fb6c9402013cd0d2ddcc
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0
 bpm=0
 beat_count=0
